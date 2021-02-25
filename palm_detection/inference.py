@@ -42,7 +42,7 @@ def plot_detections(img, detections):
         angleRad = math.atan2(handDownx - handUpx, handDowny - handUpy)                        
         angleDeg = angleRad * 180 / math.pi
         x_center = xmin + xscale * (0.5 - palm_shift_y * math.sin(angleRad))
-        y_center = ymin + yscale * (0.5 - palm_shift_y * math.cos(angleRad));
+        y_center = ymin + yscale * (0.5 - palm_shift_y * math.cos(angleRad))
         xscale = yscale = max(xscale, yscale)
         yrescale =xrescale = xscale * palm_box_scale
         

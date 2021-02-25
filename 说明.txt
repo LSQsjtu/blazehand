@@ -1,0 +1,5 @@
+1. 安装包 pip install mediapipe
+2. 更改路径
+root = 'D:/CVlabortory/hand_detection'
+path = os.path.join(root, 'pics')
+遍历路径为path下所有文件
